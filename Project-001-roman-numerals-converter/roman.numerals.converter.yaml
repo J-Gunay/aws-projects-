@@ -48,8 +48,8 @@ Resources:
         cd /home/ec2-user
         wget -P templates ${FOLDER}/index.html
         wget -P templates ${FOLDER}/result.html
-        wget https://raw.githubusercontent.com/J-Gunay/aws-projects-/main/Project-001-roman-numerals-converter/app.py
-        python3 app.py
+        wget https://raw.githubusercontent.com/J-Gunay/aws-projects-/main/Project-001-roman-numerals-converter/app1.py
+        python3 app1.py
 Outputs:
   WebSiteURL:
     Value: !Sub
